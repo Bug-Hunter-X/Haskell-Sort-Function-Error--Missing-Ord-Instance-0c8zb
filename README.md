@@ -1,0 +1,3 @@
+# Haskell Sort Function Error: Missing Ord Instance
+
+This repository demonstrates a common Haskell error related to the implicit type constraints and the default context. The code attempts to use the `sort` function from `Data.List`, but it fails because it requires an instance of the `Ord` typeclass. The solution involves explicitly importing the `Ord` instance for integers using `import Data.Ord`.
